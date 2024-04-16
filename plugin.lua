@@ -13,7 +13,7 @@
   "name": "fix1",
   "key_vault": "test-keyvault",
   "exp": 1596240000,
-  "secret_id": "84480fb2-4290-4bf4-bbea-588e877efd44"
+  "secret_id": "84480fb2-4290-4bf4-bbea-"
 }
 
 // Import Secrets: Import an existing secret from AKV into DSM for secure management.
@@ -22,34 +22,34 @@
   "name": "nik123",
   "version": "a6398c1db7b546fd8c7af255cf8fd926",
   "key_vault": "test-keyvault",
-  "secret_id": "fa7881b9-ae19-4c01-bef4-a6c0a4c8f618"
+  "secret_id": "fa7881b9-ae19-4c01-bef4-"
 }
 
 // Import All Secrets: Import all secrets from AKV into DSM for comprehensive management.
 {
   "operation": "import_all",
   "key_vault": "test-keyvault",
-  "secret_id": "0bc44912-51c6-459d-929f-b61b1a3612bc"
+  "secret_id": "0bc44912-51c6-459d-929f-"
 }
 
 //List Secrets: Retrieve a list of secrets stored in AKV.
 {
   "operation": "list_secrets",
   "key_vault": "test-keyvault",
-  "secret_id": "0bc44912-51c6-459d-929f-b61b1a3612bc"
+  "secret_id": "0bc44912-51c6-459d-"
 }
 
 // List Secret Versions: Retrieve a list of versions for a specific secret stored in AKV.
 {
   "operation": "list_secret_versions",
   "key_vault": "test-keyvault",
-  "secret_id": "0bc44912-51c6-459d-929f-b61b1a3612bc"
+  "secret_id": "0bc44912-51c6-459d-"
 }
 
 // Delete Secret: Delete a secret from AKV.
 {
   "operation": "delete_secret",
-  "secret_id": "84480fb2-4290-4bf4-bbea-588e877efd44",
+  "secret_id": "84480fb2-4290-4bf4-bbea-",
   "key_vault": "test-keyvault",
   "name": "nik30"
 }
@@ -57,7 +57,7 @@
 // List of Deleted Secrets: Provides list of deleted secrets from AKV.
 {
   "operation": "list_deleted_secrets",
-  "secret_id": "0e2c407c-fead-4b72-9c3e-0e3f6fbc9cef",
+  "secret_id": "0e2c407c-fead-4b72-9c3e-",
   "key_vault": "test-keyvault"
 }
 
@@ -65,7 +65,7 @@
 // Recover Secret: Recover a previously deleted secret in AKV.
 {
   "operation": "recover_secret",
-  "secret_id": "5cf1cd73-d931-476e-b92c-011fac234d1e",
+  "secret_id": "5cf1cd73-d931-476e-b92c-",
   "key_vault": "test-keyvault",
   "name": "nik61"
 }
@@ -73,7 +73,7 @@
 // Purge Secret: Permanently remove a deleted secret from AKV.
 {
   "operation": "purge_secret",
-  "secret_id": "5cf1cd73-d931-476e-b92c-011fac234d1e",
+  "secret_id": "5cf1cd73-d931-476e-b92c-",
   "key_vault": "test-keyvault",
   "name": "nik5-secret"
 }
